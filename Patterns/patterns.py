@@ -21,3 +21,9 @@ for i in range(1,n+1):
     for j in range(i):
         print(i,end=" ")
     print()
+    
+# This program prints a right-angled triangle pattern of stars based on the user input
+for i in range(1,n+1):
+    for j in range(n-i+1):
+        print('* ',end="")
+    print()
