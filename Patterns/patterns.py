@@ -47,3 +47,16 @@ for i in range(n):
     for j in range(n-i-1):
         print(' ',end="")
     print()
+    
+# This program prints a Inverse Star pattern based on the user input
+for i in range(n):
+    # For Spaces
+    for j in range(i):
+        print(' ',end="")
+    # For Stars
+    for j in range(2*n-(2*i+1)):
+        print('*',end="")
+    # For Spaces
+    for j in range(i):
+        print(' ',end="")
+    print()
