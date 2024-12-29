@@ -60,3 +60,11 @@ for i in range(n):
     for j in range(i):
         print(' ',end="")
     print()
+    
+# This program prints a rotated triangle pattern of stars based on the user input
+for i in range(1,2*n):
+    stars = i
+    if i > n: stars= 2*n-i
+    for j in range(stars):
+        print('*',end="")
+    print()
