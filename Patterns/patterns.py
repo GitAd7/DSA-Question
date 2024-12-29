@@ -11,25 +11,25 @@ for i in range(n):
         print('* ',end="")
     print()
     
-# This program prints a right-angled triangle pattern of numbers based on the user input
+# This program prints a pattern of numbers based on the user input
 for i in range(1,n+1):
     for j in range(1,i+1):
         print(j, end=" ")
     print()
     
-# This program prints a right-angled triangle pattern of numbers based on the user input
+# This program prints a pattern of numbers based on the user input
 for i in range(1,n+1):
     for j in range(i):
         print(i,end=" ")
     print()
     
-# This program prints a right-angled triangle pattern of stars based on the user input
+# This program prints a pattern of stars based on the user input
 for i in range(1,n+1):
     for j in range(n-i+1):
         print('* ',end="")
     print()
     
-# This program prints a right-angled triangle pattern of numbers based on the user input
+# This program prints a pattern of numbers based on the user input
 for i in range(n):
     for j in range(1,n-i+1):
         print(j, end=" ")
@@ -75,4 +75,19 @@ for i in range(1, n+1):
     for j in range(i):
         print(start,end=" ")
         start = 1-start
+    print()
+    
+# This program prints a Number Crown Patterns based on the user input
+for i in range(1,n+1):
+    # Numbers
+    for j in range(1, i+1):
+        print(j,end=" ")
+    # Space
+    space = 2 * (n - i)
+    for _ in range(1, space):
+        print(' ', end="")
+    # Numbers
+    for j in range(i,0, -1):
+        print(j,end=" ")
+        space -=2
     print()
