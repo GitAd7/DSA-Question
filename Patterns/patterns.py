@@ -99,3 +99,9 @@ for i in range(1,n+1):
         print(num, end=" ")
         num = num+1
     print()
+    
+# This progrma prints Increasing Letter Triangle Patterns based on the user input
+for i in range(n):
+    for j in range(i+1):
+        print(chr(ord('A')+j),end=" ")
+    print()
