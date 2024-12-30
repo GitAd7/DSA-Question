@@ -105,3 +105,9 @@ for i in range(n):
     for j in range(i+1):
         print(chr(ord('A')+j),end=" ")
     print()
+    
+# This program prints a Decreasing Letter Triangle Patterns based on the user input  
+for i in range(n,0,-1):
+    for j in range(i):
+        print(chr(ord('A')+j),end=" ")
+    print()
