@@ -91,3 +91,11 @@ for i in range(1,n+1):
         print(j,end=" ")
         space -=2
     print()
+
+# This program prints a Increasing Number Triangle Patterns based on the user input
+num = 1
+for i in range(1,n+1):
+    for j in range(i):
+        print(num, end=" ")
+        num = num+1
+    print()
