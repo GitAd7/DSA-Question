@@ -116,3 +116,18 @@ for i in range(n,0,-1):
 for i in range(1,n+1):
     c = chr(64+i)
     print((c+" ")*i)
+    
+# This program prints a Alpha Hill Patterns based on the user input
+for i in range(1,n+1):
+    # for spaces
+    for j in range(1,(n-i)+1):
+        print(" ",end="")
+    # for char
+    for j in range(1,i+1):
+        print(chr(64+j),end=" ")
+    for j in range(i-1,0,-1):
+        print(chr(64+j),end=" ")
+    # for spaces
+    for j in range(1,(n-i)+1):
+        print(" ",end="")
+    print()
