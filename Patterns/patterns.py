@@ -138,3 +138,15 @@ for i in range(1,n+1):
     for j in range(1,i+1):
         print(chr(base-j),end=" ")
     print()
+    
+# This program prints a Star based Symmetry Patterns based on the user input
+    for i in range(1,n+1):
+        print("* "*(i),end="")
+        print(" "*4*(n-1),end=" ")
+        print("* "*(i),end="")
+        print()
+    for i in range(n-1,0,-1):
+        print("* "*(i),end="")
+        print(" "*4*(n-1),end=" ")
+        print("* "*(i),end="")
+        print()
