@@ -1,0 +1,5 @@
+class Solution:    
+    def printNos(self,n):
+        if n == 0:   # Base Condition
+            return
+        self.printNos(n-1) # Function callling itself
